@@ -35,6 +35,24 @@ background-color: aqua;
 margin: auto;
 background: url(../imagens/frame-iphone.png) no-repeat;
 }
+section#redes img{
+width: 50px;
+margin: 10px;
+border-radius: 50%;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5) ;
+}
+section#redes{
+    text-align: right;
+}
+
+section#redes img:hover{
+border: 2px solid rgba(255, 255, 255, 0.603);
+box-sizing: border-box; /*a borda fazer parte da caixa e não ficar se mexendo quando passar o mouse por cima*/
+transform: translate(-3px, -3px);
+transition: transform 0.3s, border 0.5s;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
+
+}
 
 iframe#tela{
     position: relative;
